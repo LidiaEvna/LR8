@@ -81,7 +81,7 @@ public class Main {
     }
     class Veterinary {
         void treatAnimal(Animal animal) {
-            System.out.println("На приеме у ветеринара");
+            System.out.println("На приеме у ветеринара ,была " +animal.name);
             System.out.println("Кличка" +animal.name);
             System.out.println("Порода" +animal.breed);
             System.out.println( "Питается " +animal.food);
